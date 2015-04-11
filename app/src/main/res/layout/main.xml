@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="240dp" >
+
+        <ListView
+            android:id="@+id/in"
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:layout_weight="1"
+            android:stackFromBottom="true"
+            android:transcriptMode="alwaysScroll" >
+        </ListView>
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="152dp"
+            android:layout_height="200dp"
+            android:layout_weight="1"
+            android:src="@drawable/app_icon" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="In Module" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="120dp"
+                android:layout_height="35dp"
+                android:text="@string/EnrolID"
+                android:textSize="10sp"/>
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="120dp"
+                android:layout_height="35dp"
+                android:text="@string/Verify"
+                android:textSize="10sp"	/>
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="120dp"
+                android:layout_height="35dp"
+                android:text="@string/Identify"
+                android:textSize="10sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="120dp"
+                android:layout_height="35dp"
+                android:text="@string/DeleteID"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="120dp"
+                android:layout_height="35dp"
+                android:text="@string/ClearID"
+                android:textSize="10sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="In Host" />
+        </LinearLayout>
+    
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="120dp"
+                android:layout_height="35dp"
+                android:text="@string/EnrolHost"
+                android:textSize="10sp"/>
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="120dp"
+                android:layout_height="35dp"
+                android:text="@string/CaptureHost"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="120dp"
+                android:layout_height="35dp"
+                android:text="@string/Match"
+                android:textSize="10sp" />
+			
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+			<Button
+                android:id="@+id/button16"
+                android:layout_width="120dp"
+                android:layout_height="35dp"
+                android:text="@string/getimage"
+                android:textSize="10sp"  />
+			
+			<Button
+                android:id="@+id/button17"
+                android:layout_width="120dp"
+                android:layout_height="35dp"
+                android:text="@string/getdata"
+                android:textSize="10sp"  />
+			
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Smart Card" />
+        </LinearLayout>
+    	
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="120dp"
+                android:layout_height="35dp"
+                android:text="@string/WriteCard"
+                android:textSize="10sp"  />
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="120dp"
+                android:layout_height="35dp"
+                android:text="@string/ReadCard"
+                android:textSize="10sp"  />
+
+            <Button
+                android:id="@+id/button13"
+                android:layout_width="120dp"
+                android:layout_height="35dp"
+                android:text="@string/CardSn"
+                android:textSize="10sp"  />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="120dp"
+                android:layout_height="35dp"
+                android:text="@string/CardID"
+                android:textSize="10sp"  />
+
+            <Button
+                android:id="@+id/button12"
+                android:layout_width="120dp"
+                android:layout_height="35dp"
+                android:text="@string/CardFinger"
+                android:textSize="10sp"  />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Device" />
+        </LinearLayout>
+    	
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/button14"
+                android:layout_width="120dp"
+                android:layout_height="35dp"
+                android:text="@string/getdevsn"
+                android:textSize="10sp"  />         
+                
+            <Button
+                android:id="@+id/button15"
+                android:layout_width="120dp"
+                android:layout_height="35dp"
+                android:text="@string/getbat"
+                android:textSize="10sp"  />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
